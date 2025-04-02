@@ -7,7 +7,6 @@ env:
   IMAGE_NAME: kwonshzzang/weather-observation-collector   # 이미지 이름. 자신의 깃허브 유저명을 소문자로 추가한다.
   VERSION: latest                                         # 지금은 새 이미지를 latest로 태깅한다.
 
-
 jobs:
   build:                            # 작업의 고유 식별자
     name: Build and Test            # 작업의 인간 친화적 명칭

@@ -58,7 +58,7 @@ bootBuildImage {
     imageName = "${project.name}"
 
     // 이미지에 설치할 JVM 버전. 최신 버전인 자바 17을 사용한다.
-    environment = ["BP_JVM_VERSION" : "17.*"]
+    environment = ["BP_JVM_VERSION": "17.*"]
 
     // 컨테이너 저장소 연결을 설정하기 위한 섹션
     docker {
@@ -69,7 +69,6 @@ bootBuildImage {
             url = project.findProperty("registryUrl")
         }
     }
-
 }
 
 tasks.named('test') {
