@@ -10,7 +10,7 @@ spring:
       default-topic: weather-observation
 
 server:
-  port: 9091               # 서버가 연결을 받아들이는 포트
+  port: 29001              # 서버가 연결을 받아들이는 포트
   shutdown: graceful       # 우아한 종료를 활성화
   netty:
     connection-timeout: 2s # 서버와 TCP 연결을 수립하기 위해 기다리는 시간
